@@ -1,0 +1,238 @@
+.hero-section-3 {
+    padding: 50px;
+    /* Adjust the padding as needed */
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.left-text {
+    text-align: left;
+    font-size: 4em;
+}
+
+.section-heading {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section-content {
+    font-size: 1.2rem;
+}
+
+.right-card {
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+    width: 300px;
+}
+
+.card-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-content {
+    font-size: 1rem;
+}
+
+.three-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 80px;
+}
+
+/* Rigth card Css */
+
+/* .right-card .card {
+    max-width: 600px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid red
+  } */
+
+.right-card #cardst {
+    max-width: 500px;
+    /* box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25); */
+    text-align: center;
+    border-radius: 40px transparent;
+}
+
+.right-card #cardst a {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+.image {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    display: block;
+    background-image: url('https://img.freepik.com/free-vector/business-team-brainstorm-idea-lightbulb-from-jigsaw-working-team-collaboration-enterprise-cooperation-colleagues-mutual-assistance-concept-pinkish-coral-bluevector-isolated-illustration_335657-1651.jpg?size=626&ext=jpg&ga=GA1.2.1961946707.1693059024&semt=ais');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.title {
+    color: #111827;
+    font-size: 2.125rem;
+    margin-top: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    list-style: none;
+}
+
+.desc {
+    margin-top: 1rem;
+    color: black;
+    font-size: 1.5rem;
+    padding: 3px 34px;
+    /* line-height: 1.25rem; */
+}
+
+.action {
+    display: inline-flex;
+    margin-top: 1rem;
+    color: #ffffff;
+    font-size: 1.05rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    align-items: center;
+    gap: 0.25rem;
+    background-color: rebeccapurple;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.action span {
+    transition: .3s ease;
+}
+
+.action:hover span {
+    transform: translateX(4px);
+}
+
+
+/* Right card css ends */
+
+
+/* Css For the Middle card */
+.cardfor {
+    width: 300px;
+    height: 300px;
+    background-image: url('https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2545.jpg?size=626&ext=jpg&ga=GA1.1.1961946707.1693059024&semt=ais');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    overflow: hidden;
+    font-family: inherit;
+    z-index: 1;
+}
+
+.imgfor {
+    display: flex;
+    margin: 60px auto 10px auto;
+    width: 85px;
+    height: 85px;
+    border: 1px solid #f0f0f0;
+    border-radius: 50%;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    z-index: 99;
+    background-image:url('https://img.freepik.com/free-photo/view-3d-confident-businessman_23-2150709932.jpg?size=626&ext=jpg&ga=GA1.1.1961946707.1693059024&semt=ais');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Imhugu{
+    display: flex;
+    margin: 60px auto 10px auto;
+    width: 85px;
+    height: 85px;
+    border: 1px solid #f0f0f0;
+    border-radius: 50%;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    z-index: 99;
+    background-image:url('https://img.freepik.com/free-vector/thoughtful-woman-with-laptop-looking-big-question-mark_1150-39362.jpg?size=626&ext=jpg&ga=GA1.1.1961946707.1693059024&semt=sph');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Imhugu2{
+    display: flex;
+    margin: 60px auto 10px auto;
+    width: 85px;
+    height: 85px;
+    border: 1px solid #f0f0f0;
+    border-radius: 50%;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    z-index: 99;
+    background-image:url('https://img.freepik.com/free-vector/business-team-discussing-ideas-startup_74855-4380.jpg?size=626&ext=jpg&ga=GA1.1.1961946707.1693059024&semt=sph');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.pfor{
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.headingfor {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+svg {
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.cardfor:hover .imgfor {
+    transform: scale(1.1);
+    border: 1px solid #f0f0f0;
+}
+
+.cardfor:hover #Imhugu {
+    transform: scale(1.1);
+    border: 1px solid #f0f0f0;
+}
+
+.cardfor:hover #Imhugu2 {
+    transform: scale(1.1);
+    border: 1px solid #f0f0f0;
+}
+.cardfor:hover h1,
+.cardfor:hover .pfor {
+    opacity: 1;
+}
+
+/* Css For the Middle card Ends UP */

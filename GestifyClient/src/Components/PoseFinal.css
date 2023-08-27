@@ -1,0 +1,173 @@
+.game-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: fit-content;
+    margin-top: 0px;
+}
+
+.container3 {
+    margin-top: 25px;
+    height: 25vh;
+    padding: 12px 12px;
+}
+
+.container3 p {
+    display: block;
+    margin: auto;
+    width: fit-content;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.container3 a {
+    display: block;
+    margin: auto;
+    width: fit-content;
+    margin-top: 10px;
+    font-size: 1.5em;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* This is start of the css  */
+
+.card12 {
+    width: 350px;
+    height: 250px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border-radius: 8px;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+    cursor: pointer;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.card-content12 {
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+.card456 {
+    display: block;
+    margin: auto;
+    width: fit-content
+}
+
+.card-content12 .card-title12 {
+    font-size: 24px;
+    font-weight: 700;
+    color: inherit;
+    text-transform: uppercase;
+}
+
+.card-conten12 .card-para12 {
+    color: inherit;
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+.card12:hover {
+    transform: rotateY(10deg) rotateX(10deg) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card12:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.1));
+    transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+    z-index: 1;
+}
+
+.card12:hover:before {
+    transform: translateX(-100%);
+}
+
+.card12:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.1));
+    transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+    z-index: 1;
+}
+
+.card12:hover:after {
+    transform: translateX(100%);
+}
+
+/* This is  css for Upload Button  */
+.custum-file-upload {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    align-items: space-between;
+    gap: 20px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #cacaca;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 48px 35px -48px rgba(0,0,0,0.1);
+  }
+  
+  .custum-file-upload .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custum-file-upload .icon svg {
+    height: 80px;
+    fill: rgba(75, 85, 99, 1);
+  }
+  
+  .custum-file-upload .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custum-file-upload .text span {
+    font-weight: 400;
+    color: rgba(75, 85, 99, 1);
+  }
+  
+  .custum-file-upload input {
+    display: none;
+  }
+/* This is end of css for Upload Button */
