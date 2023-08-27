@@ -4,6 +4,7 @@ This is a Decentralized Application which deals with gesture Control based Smart
 ## Tools And Technology Used:
 
 1.Solidity 
+<br />
 2.SOLc : Solidity Compiler
 3.Hardhat
 4.ViteJs For Frontend
