@@ -29,3 +29,4 @@ This is a Decentralized Application which deals with gesture Control based Smart
 3.Many other Features Such as NFT-Minting and IPFS Upload Will be UPdated in Version1.0.2
 
 ## Video Link :
+https://www.loom.com/share/a362b5de40f7410cab2396cc16ae7c68
