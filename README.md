@@ -6,17 +6,26 @@ This is a Decentralized Application which deals with gesture Control based Smart
 1.Solidity 
 <br />
 2.SOLc : Solidity Compiler
+<br />
 3.Hardhat
+<br />
 4.ViteJs For Frontend
+<br />
 5.NodeJS for server
+<br />
 6.NOdejs Child-Processes For Automation
+<br />
 7.Metamask 
+<br />
 8.Polygon Mumbai TestNet 
+<br />
 9.UIVerse.io For Frontend
 
 ## Features:
 1.Gestures Recognization 
+<br />
 2.Automated Smart Contract Deployment 
+<br />
 3.Many other Features Such as NFT-Minting and IPFS Upload Will be UPdated in Version1.0.2
 
 ## Video Link :
