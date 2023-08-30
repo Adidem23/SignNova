@@ -72,25 +72,17 @@ const PoseFinal = () => {
         const thumbIsUp = landmarks[4][1] < landmarks[3][1] && landmarks[4][1] < landmarks[2][1];
 
         if (thumbIsUp && landmarks[4][1] < thumbUpThreshold * landmarks[0][1]) {
-
             setGesture('👍 Thumbs Up');
-            setActivewebcam(false);
-            const canvasdiv = document.getElementById('canvas');
-            canvasdiv.style.display = "none";
-            setDisabled(true);
-        }
-        else {
-            setGesture("🤚Normal Hand");
             count++;
             if (count > 50) {
-                setMintNFT(true)
                 setActivewebcam(false);
                 const canvasdiv = document.getElementById('canvas');
                 canvasdiv.style.display = "none";
-                setDisabled(false);
-
+                setDisabled(true);
             }
-
+        }
+        else {
+            setGesture("🤚Normal Hand");
         }
 
     }
@@ -120,7 +112,7 @@ const PoseFinal = () => {
         console.log(provider, signer);
         const factory = new ethers.ContractFactory(abi, bytecode, signer);
         console.log(factory);
-        const contract = await factory.deploy({gasLimit: Infinity});
+        const contract = await factory.deploy({ gasLimit: Infinity });
         setDeployed(true);
         const ContractAddressDeployed = await contract.getAddress();
         setContractAddress(ContractAddressDeployed);
