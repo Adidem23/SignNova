@@ -112,7 +112,7 @@ const PoseFinal = () => {
         console.log(provider, signer);
         const factory = new ethers.ContractFactory(abi, bytecode, signer);
         console.log(factory);
-        const contract = await factory.deploy({ gasLimit: Infinity });
+        const contract = await factory.deploy();
         setDeployed(true);
         const ContractAddressDeployed = await contract.getAddress();
         setContractAddress(ContractAddressDeployed);
