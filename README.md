@@ -5,7 +5,7 @@ This is a Decentralized Application which deals with gesture Control based Smart
 
 1.Solidity 
 <br />
-2.SOLc : Solidity Compiler
+2.Solc : Solidity Compiler
 <br />
 3.Hardhat
 <br />
